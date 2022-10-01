@@ -1,0 +1,247 @@
+
+/* CSS do index*/
+.index{
+    font-family: 'Minecraft';
+    src: 'Minecraft.ttf' format(TrueType);
+    font-style: normal;
+    font-weight: normal;
+
+    background-color:#a4acfc;
+}
+
+/* CSS do poo*/
+
+.poo{
+    font-family: 'Minecraft';
+    src: 'Minecraft.ttf' format(TrueType);
+    font-style: normal;
+    font-weight: normal;
+
+    background-color: #a4acfc;
+}
+
+/* CSS do analise_sistemas*/
+.anl{
+    font-family: 'Minecraft';
+    src: 'Minecraft.ttf' format(TrueType);
+    font-style: normal;
+    font-weight: normal;
+
+    background-color: #a4acfc;
+}
+
+/* CSS do fbd*/
+
+.fbd{
+    font-family: 'Minecraft';
+    src: 'Minecraft.ttf' format(TrueType);
+    font-style: normal;
+    font-weight: normal;
+
+    background-color: #a4acfc;
+}
+
+/* CSS do analise_sistemas*/
+
+h3{
+    font-style: normal;
+    font-weight: normal;
+    border-radius: 8px;
+    width: 250px;
+    color: rgb(233, 232, 232);
+    background-color: #db5b1a;
+    box-shadow: 0px 2px #a74514;
+}
+
+h4{
+    background-color: #db5b1a;
+    font-style: normal;
+    font-weight: normal;
+    box-shadow: 0px 2px #a74514;
+
+    border-radius: 8px;
+    width: 85px;
+    color: rgb(233, 232, 232);
+}
+h5{
+    font-style: normal;
+    font-weight: normal;
+}
+
+p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+/* Padrão de barra de título e descrição*/
+.descricao{
+    font-size: 15px;
+    text-align: left;
+    width: 500px;
+    background-color: #a4acfc;
+    color: #000;
+}
+
+.T_barra{
+    background-color: #db5b1a;
+    font-style: normal;
+    font-weight: normal;
+
+    border-radius: 88px;
+    width: 250px; height: 28px;
+    color: rgb(230, 230, 230);
+    font-size: 15px;
+}
+
+/* CSS da pagina de contato*/
+.contato_page{
+    font-family: 'Minecraft';
+    src: 'Minecraft.ttf' format(TrueType);
+    font-style: normal;
+    font-weight: normal;
+
+    background-color:#a4acfc;
+    text-align: center;
+}
+
+.topico_5{
+    width: 300px;
+    height: 20px;
+}
+
+/*FORM CENTRO DE EDIÇÃO CSS*/
+form ,textarea{
+    text-align: center;
+    width: 300px;
+    height: px;
+    margin: 20 auto;
+    border: 2px solid #364288;
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0px 5px #666c8f;
+
+}
+input[type="text"]{
+    width: 250px;
+    text-align: left;
+    border: 2px #6575d4;
+    border-radius: 12px;
+    font-family: 'Minecraft';
+    font-size: 12px;
+    outline: none;
+    font-size: 13px;
+
+}
+
+input[type="email"]{
+    width: 250px;
+    text-align: left;
+    border: #6575d4;
+    border-radius: 12px;
+    font-family: 'Minecraft';
+    font-size: 12px;
+    outline: none;
+    font-size: 13px;
+}
+
+input[type="texti"]{
+    width: 250px;
+    height: 100;
+    text-align: left;
+    border:  #6575cf;
+    border-radius: 12px;
+    font-family: 'Minecraft';
+    font-size: 12px;
+}
+
+.return{
+    text-align: center;
+}
+
+.link_b{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    border: 2px;
+    border-radius: 8px;
+
+}
+
+.link_b:hover{
+    background-color: #df5c1a;
+    color: rgb(255, 255, 255);
+}
+
+.contato_b, textarea{
+    width:80px;
+    height: 20px;
+    text-align: left;
+
+}
+
+.linha_separacao{
+    margin: 0 auto;
+    background-color: #868fbe;
+    border: 1px;
+    border-radius: 150px;
+    width: 100px;
+    height: 12px;
+}
+
+button{
+    background-color: #a4acfc;
+    color: black;
+    font-family: 'Minecraft';
+    border-radius: 12px;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    box-shadow: 0px 5px;
+
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #8d93db;
+    color: rgb(24, 24, 24);
+}
+
+button:active{
+    box-shadow: 0px 2px;
+    font-size: 14px;
+    width: 99px;
+    height: 29px;
+}
+
+.b_link{
+    text-decoration: none;
+    color: #db5b1a;
+}
+
+.b_link:hover{
+    background-color: #df5c1a;
+    border-radius: 12px;
+    color: rgb(241, 238, 238);
+    text-decoration: none;
+}
+
+.emoji{
+    font-family: 'CD-Icons';
+    src: 'Cd-Incons.ttf' format(TrueType);
+    font-size: 22px;
+    padding: 0px;
+    text-align: center;
+    color: rgb(11, 75, 194);
+}
+.return{
+    text-align: center;
+}
+
+.caixa_sms, textarea{
+    width: 250px;
+    height: 100px;
+    max-height: 250px;
+    max-width:250px ;
+    outline: none;
+}
