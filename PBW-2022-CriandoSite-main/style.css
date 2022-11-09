@@ -12,6 +12,22 @@
   color: #c4c4c4;
 }
 
+.oqestudo{
+  font-family: terminal;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #030375;
+  color: #c4c4c4;
+}
+
+.qse{
+  font-family: terminal;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #030375;
+  color: #c4c4c4;
+}
+
 /* -> CSS do poo - PÁGINA DE MATÉRIA*/
 .poo {
   font-family: terminal;
@@ -255,27 +271,54 @@ textarea {
 }
 
 /*Elementos nav & ul*/
-.navigation{
-  padding: 0px;
-  width: 180px;
-  height: 30px;
-  top: 0;
-  background-color: #050597;
-  text-align: center;
-}
-li {
-    float: left;
+
+
+body{
+font-family: arial, helvetica, sans-serif;
+font-size: 12px;
+color: #c4c4c4;
 }
 
-li,
-a {
-    display: block;
-    padding: 3px 3px;
-    text-align: center;
-    text-decoration: none;
-    color: #c4c4c4;
-  
+.navigation{
+list-style:none;
+border:none;
+float:left;
+color: #c4c4c4;
 }
+
+.navigation li{
+  position:relative;
+  float:left;
+  border: none;
+  }
+
+.navigation li a{color:#333; text-decoration:none; padding:5px 10px; display:block;}
+
+.navigation li a:hover{
+background:#030370;
+color:#c4c4c4;
+}
+
+.navigation li  ul{
+  position:absolute;
+  top:25px;
+  left:0;
+  background-color:#a3a3a3;
+  display:none;
+  color: #c4c4c4;
+  }
+
+  .navigation li:hover ul, .navigation li.over ul{display:block;}
+
+  .navigation li ul li{
+    border:1px solid #030370;
+    display:block;
+    width:150px;
+  }
+  navigation, li, a{
+    color: #c4c4c4;
+  }
+
 
 /*sobre_pagina*/
 .sobre{
@@ -288,4 +331,8 @@ p{
   width: 450px;
   background-color: #030375;
   color:#c4c4c4;
+}
+
+.navigation, a{
+  color: #c4c4c4;
 }
