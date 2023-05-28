@@ -1,14 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+@font-face {
+    font-family: 'Minecraftia';
+    src: url('Minecraftia-Regular.ttf');
+}
 
 body{
-    font-family: poppins;
-    background-color:honeydew;
+    font-family: 'Minecraftia';
+    background-color: #cbcfb4;
+    color: #353130;
+}
+#title{
+    text-align: center;
+}
+
+#form{
+    text-align: center;
+    
+    padding: 5px;
+}
+#inp{
+    font-family: 'Minecraftia';
+    background-color: #8f8f8d;
+    color: #ffffff;
+    margin: 2px;
+    border-radius: 15px;
+}
+a{
+    border-radius: 5px;
+    background-color: #8f8f8d;
+    text-decoration: none;
+    color:#353130 ;
+}
+#subForm{
+    text-align: center;
 }
 
 
-.image{
-    width: 350px;
-    height: 300px;
-    border-radius: 30px;
-    border: 10px;
+
+.quest{
+    margin: 10px;
+    border-radius: 15px;
+    background-color: #c0c4ad;
+    width: 400px;
 }
